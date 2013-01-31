@@ -4,6 +4,8 @@ django-markdown
 **Django markdown** is django application that allows use markdown wysiwyg in flatpages, admin forms and other forms.
 Documentaton available at pypi_ or github_.
 
+This is a custom version, made to support simple_markdown, and to fix some bugs.
+
 .. contents::
 
 Requirements
