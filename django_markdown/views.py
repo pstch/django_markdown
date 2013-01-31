@@ -7,5 +7,5 @@ def preview(request):
     css = getattr(settings, 'DJANGO_MARKDOWN_STYLE', media_or_static + 'django_markdown/preview.css')
 
     return render_to_response(
-        request, 'django_markdown/preview.html',
+        'django_markdown/preview.html',
         {'content' : request.REQUEST.get('data', 'No content posted'), 'css' : css})
